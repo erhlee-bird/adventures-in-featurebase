@@ -1,0 +1,7 @@
+int,{"options":{"type":"int","min":-9007199254740991,"max":9007199254740991}}
+timestamp,{"options":{"type":"timestamp","timeUnit":"s"}}
+decimal,{"options":{"type":"decimal","scale":2}}
+string,{"options":{"type":"mutex","keys":true}}
+stringset,{"options":{"type":"set","keys":true}}
+id,{"options":{"type":"mutex"}}
+idset,{"options":{"type":"set"}}
