@@ -1,0 +1,95 @@
+{
+    "name": "adventure",
+    "sink_details": {
+        "table": "adventure"
+    },
+    "schema": {
+        "type": "json",
+        "id_field": null,
+        "primary_key_fields": [
+            "_id"
+        ],
+        "allow_missing_fields": true,
+        "definition": [
+            {
+                "name": "_id",
+                "path": [
+                    "d"
+                ],
+                "type": "string"
+            },
+            {
+                "name": "a",
+                "path": [
+                    "a"
+                ],
+                "type": "int",
+                "config": {
+                    "Min": -9007199254740991,
+                    "Max": 9007199254740991,
+                    "ForeignIndex": ""
+                }
+            },
+            {
+                "name": "b",
+                "path": [
+                    "b"
+                ],
+                "type": "timestamp",
+                "config": {
+                    "Granularity": "s"
+                }
+            },
+            {
+                "name": "c",
+                "path": [
+                    "c"
+                ],
+                "type": "decimal",
+                "config": {
+                    "Scale": 2
+                }
+            },
+            {
+                "name": "d",
+                "path": [
+                    "d"
+                ],
+                "type": "string",
+                "config": {
+                    "Mutex": true
+                }
+            },
+            {
+                "name": "e",
+                "path": [
+                    "e"
+                ],
+                "type": "string",
+                "config": {
+                    "Mutex": false
+                }
+            },
+            {
+                "name": "f",
+                "path": [
+                    "f"
+                ],
+                "type": "id",
+                "config": {
+                    "Mutex": true
+                }
+            },
+            {
+                "name": "g",
+                "path": [
+                    "g"
+                ],
+                "type": "id",
+                "config": {
+                    "Mutex": false
+                }
+            }
+        ]
+    }
+}

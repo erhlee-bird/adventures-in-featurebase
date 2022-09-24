@@ -26,6 +26,7 @@ if not ready:
 
 options = Options()
 options.binary_location = "/run/current-system/sw/bin/google-chrome-stable"
+options.headless = True
 
 driver = webdriver.Chrome(chrome_options=options, keep_alive=False)
 
